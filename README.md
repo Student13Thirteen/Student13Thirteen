@@ -41,7 +41,7 @@ I am constantly expanding my knowledge in modern cloud infrastructure:
 ## 📫 Let's Connect!
 
 - **Email:** antofico13@gmail.com
-- **LinkedIn:** www.linkedin.com/in/antonio-fico-021522218
+- **LinkedIn:** www.linkedin.com/in/antofico13
 
 <!---
 Student13Thirteen/Student13Thirteen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
