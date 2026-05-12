@@ -2,7 +2,7 @@
 
 🎓 **MSc Management Engineering** — Federico II University of Naples 
 ☁️ **Junior Cloud & Systems Engineer** | AWS Solutions Architect Associate in progress  
-📍 Naples, Italy | Open to Remote Opportunities  
+📍 Naples, Italy | Open to junior Cloud, IT Operations and DevOps-related opportunities  
 
 I am passionate about IT infrastructure, private clouds, and business process automation. I love building tailored solutions that solve real-world problems, moving companies from legacy on-premise servers to modern, lightweight, and secure architectures.
 
