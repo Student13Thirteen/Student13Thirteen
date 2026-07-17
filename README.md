@@ -30,16 +30,7 @@ Here are some of the solutions I've recently built and deployed for real-world u
 - 🐻 [**UptimeMonitoring**](https://github.com/Student13Thirteen/uptimemonitoring)  
   A central homelab monitoring system powered by **Uptime Kuma** in Docker. Actively checks the health of internal containers (like Nextcloud and PocketBase) via native TCP port polling and triggers instant push notifications through a **Telegram Bot** if a service goes offline. Securely manageable from anywhere via **Cloudflare Zero Trust**.
 
----
 
-## 📚 Currently Learning
-
-I am constantly expanding my knowledge in modern cloud infrastructure:
-- ☁️ Studying for the **AWS Certified Solutions Architect – Associate** exam
-- 🚢 Exploring container orchestration (**Kubernetes** fundamentals)
-- 🏗️ Diving into Infrastructure as Code (**Terraform**)
-
----
 
 ## 📫 Let's Connect!
 
