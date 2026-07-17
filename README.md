@@ -1,7 +1,7 @@
 # Ciao! I'm Antonio Fico 👋1️⃣3️⃣
 
 🎓 **MSc Management Engineering** — Federico II University of Naples 
-☁️ **Junior Cloud & Systems Engineer** | AWS Solutions Architect Associate in progress  
+☁️ **Junior Cloud & Systems Engineer** 
 📍 Naples, Italy | Open to junior Cloud, IT Operations and DevOps-related opportunities  
 
 I am passionate about IT infrastructure, private clouds, and business process automation. I love building tailored solutions that solve real-world problems, moving companies from legacy on-premise servers to modern, lightweight, and secure architectures.
@@ -10,7 +10,7 @@ I am passionate about IT infrastructure, private clouds, and business process au
 
 ## 🛠️ Tech Stack & Tools
 
-- **Cloud & Networking:** AWS (EC2, S3, CloudFront, Route 53), Cloudflare Zero Trust (Tunnels, DNS), Reverse Proxies
+- **Cloud & Networking:** Cloudflare Zero Trust (Tunnels, DNS), Reverse Proxies
 - **Server & Deployment:** Linux (Ubuntu Server), Docker, Docker Compose
 - **Backend & Database:** PocketBase (SQLite), MariaDB, Nextcloud
 - **Frontend & App Dev:** HTML5, Vanilla JS, PWA (Service Workers), Telegram Bot API
