@@ -1,49 +1,102 @@
-# Ciao! I'm Antonio Fico 👋1️⃣3️⃣
+# Antonio Fico 👋1️⃣3️⃣
 
-🎓 **MSc Management Engineering** — Federico II University of Naples  
-☁️ **Junior Cloud, Systems & Technical Operations**  
-📍 Naples, Italy | Open to junior Cloud, IT Operations, automation and DevOps-related opportunities
+### Management Engineer building self-hosted operational systems
 
-I build AI-assisted, self-hosted tools around real operational problems. My focus is not just making a demo work once: I like reducing setup friction, connecting services, reading logs, testing failure paths and turning a repository into something another person can actually run.
+I turn real operational friction into **deployable, diagnosable and reviewable tools**.
 
-## 🛠️ Current toolkit
+My projects sit at the intersection of **Cloud, Linux, technical operations, internal tools and workflow automation**. I enjoy the whole path from an operational problem to a working system: defining the flow, connecting services, deploying on a server, reading logs, testing failure paths, documenting setup and making the result easy for another person to run.
 
-- **Infrastructure & networking:** Linux, Ubuntu Server, Cloudflare Zero Trust Tunnels, DNS, reverse-proxy concepts
-- **Deployment & operations:** Docker, Docker Compose, health checks, backups, monitoring and troubleshooting
-- **Applications & data:** Nextcloud, MariaDB, PostgreSQL, PocketBase, HTML, JavaScript and PWA workflows
-- **Automation:** Python foundations, Bash in active development, GitHub Actions and Telegram integrations
+📍 Naples, Italy  
+🎓 MSc in Management Engineering — Federico II University of Naples  
+🎯 Open to junior opportunities in Cloud, IT Operations, DevOps, automation and technical implementation
 
-## 🚀 Featured projects
+## 🚀 Flagship project
 
-### 📦 [DockNextFlare](https://github.com/Student13Thirteen/docknextflare)
+### [NFRP](https://github.com/Student13Thirteen/NFRP) — self-hosted operations platform
 
-A guided Docker deployment for a self-hosted Nextcloud private cloud with MariaDB and optional Cloudflare Tunnel access. The CLI handles setup, diagnostics, logs, backup and update; CI performs a clean installation of the Nextcloud/MariaDB core and verifies health and network isolation.
+A transport-focused reference implementation built around a reusable operational core. NFRP connects document intake, controlled imports, human-reviewed `PENDING` workflows, fleet operations and cost control.
+
+```text
+upload or import
+      ↓
+parse and validate
+      ↓
+PENDING proposal
+      ↓
+human review and confirmation
+      ↓
+operational record + cost center
+```
+
+The public edition includes:
+
+- guided server setup with generated secrets;
+- company name, logo and runtime color-palette customization;
+- PostgreSQL, Prisma migrations and synthetic demo data;
+- local, LAN/reverse-proxy and optional Cloudflare Tunnel modes;
+- `setup`, `doctor`, `backup`, `update` and deterministic demo commands;
+- repository safety checks, unit tests, production build and clean-room Docker verification.
+
+```bash
+git clone https://github.com/Student13Thirteen/NFRP.git
+cd NFRP
+bash nfrp setup
+```
+
+## 🧰 Other deployable projects
+
+### [DockNextFlare](https://github.com/Student13Thirteen/docknextflare)
+
+A guided Docker deployment for a private Nextcloud instance with MariaDB and optional Cloudflare Tunnel access. Its CLI manages setup, diagnostics, logs, backups and updates; CI performs a clean core installation and verifies health and network isolation.
 
 ```bash
 bash docknextflare setup
 ```
 
-### 🚚 [PwaTruckPocket](https://github.com/Student13Thirteen/pwatruckpocket)
+### [PwaTruckPocket](https://github.com/Student13Thirteen/pwatruckpocket)
 
-An offline-first driver workflow for trip statuses and travel documents, backed by PocketBase. It includes an IndexedDB queue, retry logic, server-side notification hooks, Italian/Arabic UI and a guided clean installation that creates the schema and synthetic demo accounts automatically.
+An offline-first driver workflow for trip status updates and travel documents, backed by PocketBase. It includes an IndexedDB queue, retry logic, server-side notifications, Italian/Arabic UI and automated creation of the schema and synthetic demo accounts.
 
 ```bash
 bash pwatruckpocket setup
 ```
 
-### 🐻 [UptimeMonitoring](https://github.com/Student13Thirteen/uptimemonitoring)
+### [UptimeMonitoring](https://github.com/Student13Thirteen/uptimemonitoring)
 
-A compact Uptime Kuma reliability lab with local, LAN or optional Cloudflare access. It includes a disposable internal target so downtime and recovery can be demonstrated safely, plus setup, doctor, backup and update commands.
+A compact Uptime Kuma reliability lab with local, LAN or optional Cloudflare access. A disposable internal target makes downtime and recovery safe to demonstrate, while the CLI provides setup, diagnostics, backup and update operations.
 
 ```bash
 bash uptimemonitoring setup
 ```
 
+## 🛠️ Current toolkit
+
+**Infrastructure and networking**  
+Linux · Ubuntu Server · Docker · Docker Compose · Cloudflare Zero Trust Tunnels · DNS · reverse-proxy concepts
+
+**Operations and reliability**  
+Health checks · logs · backups · monitoring · troubleshooting · clean-room installation tests · GitHub Actions
+
+**Applications and data**  
+Next.js · PostgreSQL · Prisma · PocketBase · MariaDB · Nextcloud · PWA workflows
+
+**Automation and development**  
+Python foundations · Bash in active development · JavaScript/TypeScript project work · Telegram integrations
+
 ## How I work
 
-These projects were developed with AI assistance. My contribution is the problem definition, workflow and deployment choices, iterative prompting and review, configuration, testing, troubleshooting, documentation and verification. I am actively strengthening my independent Python, Bash and software-engineering skills.
+These projects were developed with AI assistance. My contribution is the **problem definition, workflow design, architecture and deployment choices, iterative direction and review, configuration, testing, troubleshooting, documentation and verification**.
 
-## 📫 Let's connect
+I do not present AI-generated implementation as code written line by line without assistance. I present what I can support in practice: understanding the systems, deploying them, diagnosing problems, validating behavior and continuing to strengthen my independent Python, Bash and software-engineering skills.
 
-- **Email:** antofico13@gmail.com
-- **LinkedIn:** www.linkedin.com/in/antofico13
+## What connects the projects
+
+They are not unrelated tutorials. They explore a consistent question:
+
+> How can small operational organizations adopt useful self-hosted software without turning installation, remote access and maintenance into a second full-time job?
+
+That theme drives the guided installers, optional secure tunnels, synthetic demos, health checks and clean-room CI across the portfolio.
+
+## 📫 Contact
+
+[Email](mailto:antofico13@gmail.com) · [LinkedIn](https://www.linkedin.com/in/antofico13)
