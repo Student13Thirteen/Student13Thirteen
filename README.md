@@ -41,7 +41,7 @@ bash uptimemonitoring setup
 
 ## How I work
 
-These projects were developed with strong AI assistance. My contribution is the problem definition, workflow and deployment choices, iterative prompting and review, configuration, testing, troubleshooting, documentation and verification. I am actively strengthening my independent Python, Bash and software-engineering skills.
+These projects were developed with AI assistance. My contribution is the problem definition, workflow and deployment choices, iterative prompting and review, configuration, testing, troubleshooting, documentation and verification. I am actively strengthening my independent Python, Bash and software-engineering skills.
 
 ## 📫 Let's connect
 
