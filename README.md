@@ -1,4 +1,4 @@
-# Antonio Fico 👋1️⃣3️⃣
+# Antonio Fico 1️⃣3️⃣
 
 ### Management Engineer building self-hosted operational systems
 
